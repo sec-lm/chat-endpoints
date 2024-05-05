@@ -1,0 +1,20 @@
+[
+    {
+        "url": "https://36c384e1-413d-4a13-83a7-8688000c5138.endpoints.seclm.com:9443/v1",
+        "models": [
+            "meta-llama/Meta-Llama-3-8B-Instruct"
+        ],
+        "measurement": "90f4f5f943f09dee265e37b47d9794c501b5c1230cb7ee0e5ee6bfbedd36b1ad925bd77b5dee5cdbf3ac4ab2ceccacef",
+        "pubkey_sha256": "ed676afbd35803137120949a5cb186ae005eaab23f500d1747a126a37183b7fd",
+        "attestation_data": {
+            "vcpus": 32,
+            "ovmf": "https://github.com/sec-lm/measured-direct-boot/releases/download/fbb77fd/OVMF.fd",
+            "kernel": "https://github.com/sec-lm/measured-direct-boot/releases/download/fbb77fd/vmlinuz-6.5.0-28-generic",
+            "initrd": "https://github.com/sec-lm/measured-direct-boot/releases/download/fbb77fd/initrd.img-6.5.0-28-generic",
+            "append": "console=ttyS0 root=/dev/mapper/rootfs ds=none fs_setup_shasum_check sda1_shasum=0f37e75ed0067094d138a14593e916d234bcf64faf882c7e3f2e176a3bf0a40338b06a3a044ae39f030751d88e042d7c55544f02ff7aee1d9d427f275095a582 sdb_shasum=5f7a7546e1a71e3032160b8d538c3c3f763268ff135bf38dca0fe78dc3bc1664f6581275a19f51b6fe5bc89976b4c4f0da9d298c489c544a16b4379a97febdf7",
+            "user-data.iso": "https://chat-endpoints.seclm.com/attestation_data/36c384e1-413d-4a13-83a7-8688000c5138/user-data.iso",
+            "report.bin": "https://chat-endpoints.seclm.com/attestation_data/36c384e1-413d-4a13-83a7-8688000c5138/report.bin",
+            "vcek.pem": "https://chat-endpoints.seclm.com/attestation_data/36c384e1-413d-4a13-83a7-8688000c5138/vcek.pem"
+        }
+    }
+]
