@@ -1,20 +1,20 @@
 [
     {
-        "url": "https://115606ce-b44d-457f-998d-7161efa64bc5.endpoints.seclm.com:19443/v1",
+        "url": "https://5179d69a-04ff-41db-80cf-516c8c86d326.endpoints.seclm.com:19443/v1",
         "models": [
             "meta-llama/Meta-Llama-3-8B-Instruct"
         ],
-        "measurement": "404ae46eb879a41e4e417a9d94e8dd3ee3608b785e2cc0d35620a243e6c2ebfaf3f9037992430ddb6669a3c2b4ff170e",
-        "pubkey_sha256": "a8462c4761334cc757a4628329eaa796e9367e7c649e29fc41e3be300a9baec5",
+        "measurement": "6a286524e118d07b7cdd1ae3009172299969739e5ca4f2ee2d47be3528b5b7fe5d6b4c6d9aed1148159dec9f017c7e9f",
+        "pubkey_sha256": "91c0beedb8229261b80b73b1ce6bad5f3e9cabd607ad7ac6de6f725e54118169",
         "attestation_data": {
             "vcpus": 32,
             "ovmf": "https://github.com/sec-lm/measured-direct-boot/releases/download/fbb77fd/OVMF.fd",
             "kernel": "https://github.com/sec-lm/measured-direct-boot/releases/download/fbb77fd/vmlinuz-6.5.0-28-generic",
             "initrd": "https://github.com/sec-lm/measured-direct-boot/releases/download/fbb77fd/initrd.img-6.5.0-28-generic",
-            "append": "console=ttyS0 root=/dev/mapper/rootfs ds=none fs_setup_shasum_check sda1_shasum=0f37e75ed0067094d138a14593e916d234bcf64faf882c7e3f2e176a3bf0a40338b06a3a044ae39f030751d88e042d7c55544f02ff7aee1d9d427f275095a582 sdb_shasum=51143acd4a25b03380a5e948fc8b75ddbafb41a00f23a52d13643c010017eae94ef0bc2d86ab259c685b39bfa0415178f962bbe8ec2096d67741465cb0175b33",
-            "user-data.iso": "https://chat-endpoints.seclm.com/attestation_data/115606ce-b44d-457f-998d-7161efa64bc5/user-data.iso",
-            "report.bin": "https://chat-endpoints.seclm.com/attestation_data/115606ce-b44d-457f-998d-7161efa64bc5/report.bin",
-            "vcek.pem": "https://chat-endpoints.seclm.com/attestation_data/115606ce-b44d-457f-998d-7161efa64bc5/vcek.pem"
+            "append": "console=ttyS0 root=/dev/mapper/rootfs ds=none fs_setup_shasum_check sda1_shasum=0f37e75ed0067094d138a14593e916d234bcf64faf882c7e3f2e176a3bf0a40338b06a3a044ae39f030751d88e042d7c55544f02ff7aee1d9d427f275095a582 sdb_shasum=68a3dab1c7029b2f421165844c5040d8a4e15f690a9f2d041880e031905163ca4bf29cb54fc632c151b3d47d8a7c16fb45154957b13b48173db6d4bbeab6c524",
+            "user-data.iso": "https://chat-endpoints.seclm.com/attestation_data/5179d69a-04ff-41db-80cf-516c8c86d326/user-data.iso",
+            "report.bin": "https://chat-endpoints.seclm.com/attestation_data/5179d69a-04ff-41db-80cf-516c8c86d326/report.bin",
+            "vcek.pem": "https://chat-endpoints.seclm.com/attestation_data/5179d69a-04ff-41db-80cf-516c8c86d326/vcek.pem"
         }
     }
 ]
