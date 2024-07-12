@@ -1,25 +1,25 @@
 [
     {
-        "url": "https://8d7c690a-c0fe-46fc-b22c-b55df637cdc7.endpoints.seclm.com:19443/v1",
+        "url": "https://b2663851-904b-48e4-8d30-635e102cf0c8.endpoints.seclm.com:19443/v1",
         "models": [
             "meta-llama/Meta-Llama-3-8B-Instruct"
         ],
-        "measurement": "991ab41697fec656e40b0d25ee33128c7da80013cad744c3a28010db10d19b40637dc458b305f7e78b025785d7f92ef9",
+        "measurement": "aa396a409f3a45c6ee2846dfc5999d279f8b24bfb201baaf7e6aa77e1f5c516c6ce9c914fab80e1b062a23c82a730b4d",
         "pubkey_sha256": [
-            "f42ef5cb01c6a0a130ad75cf2262c6bb7904e84449d56ee413aa212904d444de"
+            "fe2c44b5bc9a28982de5bab43c3b9d2f284541e3ae295a9f501bf50b3cc35a68"
         ],
         "attestation_data": {
             "vcpus": 32,
             "ovmf": "https://github.com/sec-lm/measured-direct-boot/releases/download/fbb77fd/OVMF.fd",
             "kernel": "https://github.com/sec-lm/measured-direct-boot/releases/download/fbb77fd/vmlinuz-6.5.0-28-generic",
             "initrd": "https://github.com/sec-lm/measured-direct-boot/releases/download/fbb77fd/initrd.img-6.5.0-28-generic",
-            "append": "console=ttyS0 root=/dev/mapper/rootfs ds=none fs_setup_shasum_check sda1_shasum=0f37e75ed0067094d138a14593e916d234bcf64faf882c7e3f2e176a3bf0a40338b06a3a044ae39f030751d88e042d7c55544f02ff7aee1d9d427f275095a582 sdb_shasum=a50a64180dac68b6b3776885dffd3df8d0946550fed864cca0d2bb761222ff5c90573c71db9d5260c35a110bba65c9248f35dcc22091ebcf247c70750849fb5f",
-            "user-data.iso": "https://chat-endpoints.seclm.com/attestation_data/8d7c690a-c0fe-46fc-b22c-b55df637cdc7/user-data.iso",
+            "append": "console=ttyS0 root=/dev/mapper/rootfs ds=none fs_setup_shasum_check sda1_shasum=0f37e75ed0067094d138a14593e916d234bcf64faf882c7e3f2e176a3bf0a40338b06a3a044ae39f030751d88e042d7c55544f02ff7aee1d9d427f275095a582 sdb_shasum=8af145d3d40551325f33275be9a41b452769c959bf950679c0a0c84c5ca2bbe20f35c5f4059943b264a23b7d75294464f3bdda228352d384d90f4183ca24b94a",
+            "user-data.iso": "https://chat-endpoints.seclm.com/attestation_data/b2663851-904b-48e4-8d30-635e102cf0c8/user-data.iso",
             "report.bin": [
-                "https://chat-endpoints.seclm.com/attestation_data/8d7c690a-c0fe-46fc-b22c-b55df637cdc7/report.bin"
+                "https://chat-endpoints.seclm.com/attestation_data/b2663851-904b-48e4-8d30-635e102cf0c8/report.bin"
             ],
             "vcek.pem": [
-                "https://chat-endpoints.seclm.com/attestation_data/8d7c690a-c0fe-46fc-b22c-b55df637cdc7/vcek.pem"
+                "https://chat-endpoints.seclm.com/attestation_data/b2663851-904b-48e4-8d30-635e102cf0c8/vcek.pem"
             ]
         }
     }
